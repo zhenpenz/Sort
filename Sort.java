@@ -35,7 +35,7 @@ public class Sort {
         return z;
     }
 
-    //交换数组中的
+    //交换数组中的index = l 和 index = j 的值
     private static void swap(int[] nums, int l, int j) {
         int tempt = nums[l];
         nums[l] = nums[j];
